@@ -72,7 +72,7 @@ nav2 li a:hover {
 
 #banner {
 	background-image: url('relieve.jpg');
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 	color: rgb(255, 255, 255);
 	text-align: center;
@@ -87,4 +87,9 @@ nav2 li a:hover {
 #banner p {
 	font-size: 24px;
 	margin-bottom: 30px;
+}
+
+#left_align{
+	text-align: left;
+	opacity: 0%;
 }
