@@ -1,11 +1,9 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: "export",  // Required for static export
   images: {
-    unoptimized: true,
+    unoptimized: true,  // Fixes issues with Next.js Image component on static hosting
   },
-  basePath: "/juanpaRdeCh.github.io",  // ✅ Ensure this matches your repo name
-  assetPrefix: "/juanpaRdeCh.github.io/",  // ✅ Leading slash added
+  basePath: '/juanpaRdeCh.github.io',  // Add this line
 };
 
 module.exports = nextConfig;
